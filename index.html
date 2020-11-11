@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 	<style>
+		/* https://coolors.co/003049-d62828-f77f00-fcbf49-eae2b7 */
 
 		/* CSS HEX 
 		--prussian-blue: #003049;
@@ -24,7 +25,6 @@
 		}
 
 		.container {
-			min-width: 300px;
 			max-width: 1200px;
 			margin: 0 auto;
 			padding: 0 1.25rem 1.25rem 1.25rem;
@@ -51,16 +51,27 @@
 
 		h3 {
 			font-size: 2rem;
-			text-align: center;
+			text-align: left;
+			color: #003049;
+		}
+
+		h4 {
+			font-size: 1.6rem;
+			text-align: left;
 			color: #003049;
 		}
 
 		td {
-			padding: 10px;
-			vertical-align: middle;
+			padding: 1rem;
+			vertical-align: top;
 		}
 
-		p {
+		.description {
+			background-color: #faf7e4;
+			border-radius: 1rem;
+		}
+
+		p , li {
 			font-size: 1.2rem;
 			line-height: 1.6rem;
 			color: #003049;
@@ -73,7 +84,7 @@
 			color: #FCBF49;
 			border-radius: .625rem;
 			margin: .625rem;
-			padding: .625rem;
+			padding: .625rem 1.25rem;
 			text-decoration: none;
 		}
 
@@ -82,7 +93,7 @@
 		}
 
 		img {
-			max-width: 200px;
+			max-width: 300px;
 		}
 
 	</style>
@@ -107,12 +118,21 @@
 			<td>
 				<img src="https://www.chicagotribune.com/resizer/CA3Td8I0IdgSUnYgaS_sSnayun4=/fit-in/800x533/smart/filters:fill(black)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QIWGTV44HJD3ZNHQ2WT5XJX6DI.jpg" alt ="Fried Rice Bowl">
 			</td>
-			<td>
+			<td class="description">
 				<h3>Fried Rice Bowl</h3>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<p class="align-center"><a class="call-to-action" href="#0">Add to Cart</a></p>
+				<h4>Options</h4>
+
+				<ul>
+					<li>Beef</li>
+					<li>Chicken</li>
+					<li>Pork</li>
+					<li>Fried Tofu</li>
+				</ul>
+
+				<p><a class="call-to-action" href="#0">Add to Cart</a></p>
 			</td>
 		</tr>
 		<tr>
@@ -124,13 +144,21 @@
 			<td>
 				<img src="https://pinchofyum.com/wp-content/uploads/Korean-Beef-Tacos.jpg" alt ="Bulgogi Tacos">
 			</td>
-			<td>
-
+			<td class="description">
 				<h3>Bulgogi Tacos</h3>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<p class="align-center"><a class="call-to-action" href="#0">Add to Cart</a></p>
+				<h4>Options</h4>
+
+				<ul>
+					<li>Beef</li>
+					<li>Chicken</li>
+					<li>Pork</li>
+					<li>Fried Tofu</li>
+				</ul>
+
+				<p><a class="call-to-action" href="#0">Add to Cart</a></p>
 			</td>
 		</tr>
 		<tr>
@@ -142,13 +170,21 @@
 			<td>
 				<img src="https://cookingwithdog.com/wp-content/uploads/2018/10/ice-cream-tempura-00.jpg" alt ="Tempura Ice Cream">
 			</td>
-			<td>
-
+			<td class="description">
 				<h3>Tempura Ice Cream</h3>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<p class="align-center"><a class="call-to-action" href="#0">Add to Cart</a></p>
+				<h4>Options</h4>
+
+				<ul>
+					<li>Beef</li>
+					<li>Chicken</li>
+					<li>Pork</li>
+					<li>Fried Tofu</li>
+				</ul>
+
+				<p><a class="call-to-action" href="#0">Add to Cart</a></p>
 			</td>
 		</tr>
 
