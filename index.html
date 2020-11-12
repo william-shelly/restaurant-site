@@ -34,7 +34,7 @@
 
 		h1, h2, h3, h4, h5, h6 {
 			font-family: 'Pacifico', cursive;
-			margin-bottom: .625rem;
+			margin: 2rem .625rem .625rem .625rem;
 		}
 
 
@@ -63,12 +63,13 @@
 		}
 
 		td {
-			padding: 1rem;
+			padding: 0 1rem;
 			vertical-align: top;
 		}
 
 		.description {
 			background-color: #faf7e4;
+			padding: 1rem;
 			border-radius: 1rem;
 		}
 
@@ -94,8 +95,42 @@
 			text-align: center;
 		}
 
-		img {
+		/* img {
 			max-width: 300px;
+		}  */
+
+		
+
+		.img-wrapper {
+			overflow: hidden;
+			transition: .2s all linear;
+			position: relative;
+			width: 100%;
+			min-width: 300px;
+			height: 300px;
+			border: 2px solid #ccc;
+			border-radius: 1rem;
+		}
+
+		.img-wrapper img { /* img:not(.responsive-exclude) */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			max-width: none;
+			max-height: none;
+			width: auto;
+			height: 100%;
+		}
+
+		.img-wrapper img.portrait {
+			width: 100%;
+			height: auto;
+		}
+
+		.img-wrapper img.landscape {
+			width: auto;
+			height: 100%;
 		}
 
 	</style>
@@ -105,19 +140,21 @@
 	<table class="container">
 		<tr>
 			<td colspan="2">
-				<h1>Yummies!</h1>
+				<h1>&bull; Yummies! &bull;</h1>
 
-				<p class="align-center">Yummies is a Korean Food Truck delivering Korean inspired cuisine to the people!</p>
+				<p class="align-center">Yummies is a Food Truck delivering Korean inspired cuisine to the people!</p>
 			</td>
 		</tr>
 		<tr>
 			<td colspan="2">
-				<h2>Appetizers</h2>
+				<h2>&bull; Appetizers &bull;</h2>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<img src="https://www.chicagotribune.com/resizer/CA3Td8I0IdgSUnYgaS_sSnayun4=/fit-in/800x533/smart/filters:fill(black)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QIWGTV44HJD3ZNHQ2WT5XJX6DI.jpg" alt ="Fried Rice Bowl">
+				<div class="img-wrapper">
+					<img class="landscape" src="https://www.chicagotribune.com/resizer/CA3Td8I0IdgSUnYgaS_sSnayun4=/fit-in/800x533/smart/filters:fill(black)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QIWGTV44HJD3ZNHQ2WT5XJX6DI.jpg" alt ="Fried Rice Bowl">
+				</div>
 			</td>
 			<td class="description">
 				<h3>Fried Rice Bowl</h3>
@@ -139,12 +176,14 @@
 		</tr>
 		<tr>
 			<td colspan="2">
-				<h2>Main Course</h2>
+				<h2>&bull; Main Course &bull;</h2>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<img src="https://pinchofyum.com/wp-content/uploads/Korean-Beef-Tacos.jpg" alt ="Bulgogi Tacos">
+				<div class="img-wrapper">
+					<img class="portrait" src="https://pinchofyum.com/wp-content/uploads/Korean-Beef-Tacos.jpg" alt ="Bulgogi Tacos">
+				</div>
 			</td>
 			<td class="description">
 				<h3>Bulgogi Tacos</h3>
@@ -171,7 +210,9 @@
 		</tr>
 		<tr>
 			<td>
-				<img src="https://cookingwithdog.com/wp-content/uploads/2018/10/ice-cream-tempura-00.jpg" alt ="Tempura Ice Cream">
+				<div class="img-wrapper">
+					<img class="landscape" src="https://cookingwithdog.com/wp-content/uploads/2018/10/ice-cream-tempura-00.jpg" alt ="Tempura Ice Cream">
+				</div>
 			</td>
 			<td class="description">
 				<h3>Tempura Ice Cream</h3>
