@@ -1,0 +1,147 @@
+/* https://coolors.co/003049-d62828-f77f00-fcbf49-eae2b7 */
+
+		/* CSS HEX 
+		--prussian-blue: #003049;
+		--maximum-red: #d62828;
+		--orange: #f77f00;
+		--maximum-yellow-red: #fcbf49;
+		--lemon-meringue: #eae2b7;
+
+		*/
+
+
+		body {
+			background-color: #EAE2B7;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 1.25rem 1.25rem 1.25rem;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Pacifico', cursive;
+			margin: 2rem .625rem .625rem .625rem;
+		}
+
+
+		h1 {
+			font-size: 6rem;
+			text-align: center;
+			color: #D62828;
+		}
+
+		h2 {
+			font-size: 4rem;
+			text-align: center;
+			color: #F77F00;
+		}
+
+		h3 {
+			font-size: 3rem;
+			text-align: left;
+			color: #003049;
+		}
+
+		h4 {
+			font-size: 2rem;
+			text-align: left;
+			color: #003049;
+		}
+
+		td {
+			padding: 0 1rem;
+			vertical-align: top;
+		}
+
+		.description {
+			background-color: #faf7e4;
+			padding: 1rem;
+			border-radius: 1rem;
+		}
+
+		p , li {
+			font-size: 1.2rem;
+			line-height: 1.6rem;
+			color: #003049;
+
+		}
+
+		.call-to-action {
+			display: inline-block;
+			background-color: #D62828;
+			color: #FCBF49;
+			border-radius: .625rem;
+			margin: .625rem;
+			padding: .625rem 1.25rem;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		.align-center {
+			text-align: center;
+		}
+
+		/* img {
+			max-width: 300px;
+		}  */
+
+		
+
+		.img-wrapper {
+			overflow: hidden;
+			transition: .2s all linear;
+			position: relative;
+			width: 100%;
+			min-width: 300px;
+			height: 300px;
+			border: 2px solid #ccc;
+			border-radius: 1rem;
+		}
+
+		.img-wrapper img { /* img:not(.responsive-exclude) */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			max-width: none;
+			max-height: none;
+			width: auto;
+			height: 100%;
+		}
+
+		.img-wrapper img.portrait {
+			width: 100%;
+			height: auto;
+		}
+
+		.img-wrapper img.landscape {
+			width: auto;
+			height: 100%;
+		}
+
+		.form-container input ,
+		.form-container label {
+			display: block;
+			margin: 0 0 .125rem 0;
+		}
+
+		button , input[type="reset"] {
+			display: inline-block;
+			background-color: #D62828;
+			padding: .625rem;
+			border: 1px solid #D62828;
+			color: #eae2b7;
+			margin-right: .3125rem;
+		}
+
+		.button-container {
+			padding: .625rem 0;
+
+		}
+
+		.form-container input {
+			margin-bottom: 1rem;
+		}
