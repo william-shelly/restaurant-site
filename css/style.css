@@ -122,13 +122,33 @@
 			height: 100%;
 		}
 
-		.form-container input ,
-		.form-container label {
+		form {
+			padding: 0 10%;
+		}
+
+		input ,
+		label {
 			display: block;
 			margin: 0 0 .125rem 0;
 		}
 
-		button , input[type="reset"] {
+		label , 
+		button , 
+		input[type="reset"]{
+			font-size: 1.2rem;
+		}
+
+		button , 
+		input[type="reset"]{
+			border-radius: .625rem
+		}
+
+		input {
+			margin-bottom: 1rem;
+		}
+
+		button , 
+		input[type="reset"] {
 			display: inline-block;
 			background-color: #D62828;
 			padding: .625rem;
@@ -137,11 +157,21 @@
 			margin-right: .3125rem;
 		}
 
+		input[type="text"] , 
+		input[type="email"] ,
+		input[type="tel"] , 
+		textarea {
+	    display: block;
+	    margin: 0 auto .8rem auto;
+	    font-size: 1.2rem;
+	    line-height: 1.4rem;
+	    padding: .3125rem;
+	    width: 100%;
+		}
+
 		.button-container {
 			padding: .625rem 0;
 
 		}
 
-		.form-container input {
-			margin-bottom: 1rem;
-		}
+		
