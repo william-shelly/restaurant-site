@@ -21,6 +21,35 @@
 			font-family: 'Roboto', sans-serif;
 		}
 
+		nav[aria-label="Main"] ul {
+			text-align: center;
+			padding: .625rem;
+		}
+		
+		nav[aria-label="Main"] ul li {
+			display: inline-block;
+			margin: 0 2rem 0 0;
+		}
+
+		nav[aria-label="Main"] ul li:last-child {
+			margin: 0 0 0 0;
+		}
+
+		nav[aria-label="Main"] ul li a {
+			color: #FCBF49;
+			background-color: #d62828;
+			padding: .625rem 1.25rem;
+			border-radius: 1.5rem;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		#main-nav li a:hover {
+			color: #d62828;
+			background-color: #FCBF49;
+			transition: all 300ms ease-in-out;
+		}
+
 		h1, h2, h3, h4, h5, h6 {
 			font-family: 'Pacifico', cursive;
 			margin: 2rem .625rem .625rem .625rem;
