@@ -1,206 +1,205 @@
 /* https://coolors.co/003049-d62828-f77f00-fcbf49-eae2b7 */
 
-		/* CSS HEX 
-		--prussian-blue: #003049;
-		--maximum-red: #d62828;
-		--orange: #f77f00;
-		--maximum-yellow-red: #fcbf49;
-		--lemon-meringue: #eae2b7;
+/* CSS HEX 
+--prussian-blue: #003049;
+--maximum-red: #d62828;
+--orange: #f77f00;
+--maximum-yellow-red: #fcbf49;
+--lemon-meringue: #eae2b7;
 
-		*/
-
-
-		body {
-			background-color: #EAE2B7;
-		}
-
-		.container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 0 1.25rem 1.25rem 1.25rem;
-			font-family: 'Roboto', sans-serif;
-		}
-
-		nav[aria-label="Main"] ul {
-			text-align: center;
-			padding: .625rem;
-		}
-		
-		nav[aria-label="Main"] ul li {
-			display: inline-block;
-			margin: 0 2rem 0 0;
-		}
-
-		nav[aria-label="Main"] ul li:last-child {
-			margin: 0 0 0 0;
-		}
-
-		nav[aria-label="Main"] ul li a {
-			color: #FCBF49;
-			background-color: #d62828;
-			padding: .625rem 1.25rem;
-			border-radius: 1.5rem;
-			text-decoration: none;
-			font-weight: bold;
-		}
-
-		#main-nav li a:hover {
-			color: #d62828;
-			background-color: #FCBF49;
-			transition: all 300ms ease-in-out;
-		}
-
-		h1, h2, h3, h4, h5, h6 {
-			font-family: 'Pacifico', cursive;
-			margin: 2rem .625rem .625rem .625rem;
-		}
+*/
 
 
-		h1 {
-			font-size: 6rem;
-			text-align: center;
-			color: #D62828;
-		}
+body {
+	background-color: #EAE2B7;
+}
 
-		h2 {
-			font-size: 4rem;
-			text-align: center;
-			color: #F77F00;
-		}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1.25rem 1.25rem 1.25rem;
+	font-family: 'Roboto', sans-serif;
+}
 
-		h3 {
-			font-size: 3rem;
-			text-align: left;
-			color: #003049;
-		}
+nav[aria-label="Main"] ul {
+	text-align: center;
+	padding: .625rem;
+}
 
-		h4 {
-			font-size: 2rem;
-			text-align: left;
-			color: #003049;
-		}
+nav[aria-label="Main"] ul li {
+	display: inline-block;
+	margin: 0 2rem 0 0;
+}
 
-		td {
-			padding: 0 1rem;
-			vertical-align: top;
-		}
+nav[aria-label="Main"] ul li:last-child {
+	margin: 0 0 0 0;
+}
 
-		.description {
-			background-color: #faf7e4;
-			padding: 1rem;
-			border-radius: 1rem;
-		}
+nav[aria-label="Main"] ul li a {
+	color: #FCBF49;
+	background-color: #d62828;
+	padding: .625rem 1.25rem;
+	border-radius: 1.5rem;
+	text-decoration: none;
+	font-weight: bold;
+}
 
-		p , li {
-			font-size: 1.2rem;
-			line-height: 1.6rem;
-			color: #003049;
+#main-nav li a:hover {
+	color: #d62828;
+	background-color: #FCBF49;
+	transition: all 300ms ease-in-out;
+}
 
-		}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Pacifico', cursive;
+	margin: 2rem .625rem .625rem .625rem;
+}
 
-		.call-to-action {
-			display: inline-block;
-			background-color: #D62828;
-			color: #FCBF49;
-			border-radius: .625rem;
-			margin: .625rem;
-			padding: .625rem 1.25rem;
-			font-weight: bold;
-			text-decoration: none;
-		}
 
-		.align-center {
-			text-align: center;
-		}
+h1 {
+	font-size: 6rem;
+	text-align: center;
+	color: #D62828;
+}
 
-		/* img {
-			max-width: 300px;
-		}  */
+h2 {
+	font-size: 4rem;
+	text-align: center;
+	color: #F77F00;
+}
 
-		
+h3 {
+	font-size: 3rem;
+	text-align: left;
+	color: #003049;
+}
 
-		.img-wrapper {
-			overflow: hidden;
-			transition: .2s all linear;
-			position: relative;
-			width: 100%;
-			min-width: 300px;
-			height: 300px;
-			border: 2px solid #ccc;
-			border-radius: 1rem;
-		}
+h4 {
+	font-size: 2rem;
+	text-align: left;
+	color: #003049;
+}
 
-		.img-wrapper img { /* img:not(.responsive-exclude) */
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-			max-width: none;
-			max-height: none;
-			width: auto;
-			height: 100%;
-		}
+td {
+	padding: 0 1rem;
+	vertical-align: top;
+}
 
-		.img-wrapper img.portrait {
-			width: 100%;
-			height: auto;
-		}
+.description {
+	background-color: #faf7e4;
+	padding: 1rem;
+	border-radius: 1rem;
+}
 
-		.img-wrapper img.landscape {
-			width: auto;
-			height: 100%;
-		}
+p , li {
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #003049;
 
-		form {
-			padding: 0 10%;
-		}
+}
 
-		input ,
-		label {
-			display: block;
-			margin: 0 0 .125rem 0;
-		}
+.call-to-action {
+	display: inline-block;
+	background-color: #D62828;
+	color: #FCBF49;
+	border-radius: .625rem;
+	margin: .625rem;
+	padding: .625rem 1.25rem;
+	font-weight: bold;
+	text-decoration: none;
+}
 
-		label , 
-		button , 
-		input[type="reset"]{
-			font-size: 1.2rem;
-		}
+.align-center {
+	text-align: center;
+}
 
-		button , 
-		input[type="reset"]{
-			border-radius: .625rem
-		}
+/* img {
+	max-width: 300px;
+}  */
 
-		input {
-			margin-bottom: 1rem;
-		}
 
-		button , 
-		input[type="reset"] {
-			display: inline-block;
-			background-color: #D62828;
-			padding: .625rem;
-			border: 1px solid #D62828;
-			color: #eae2b7;
-			margin-right: .3125rem;
-		}
 
-		input[type="text"] , 
-		input[type="email"] ,
-		input[type="tel"] , 
-		textarea {
-	    display: block;
-	    margin: 0 auto .8rem auto;
-	    font-size: 1.2rem;
-	    line-height: 1.4rem;
-	    padding: .3125rem;
-	    width: 100%;
-		}
+.img-wrapper {
+	overflow: hidden;
+	transition: .2s all linear;
+	position: relative;
+	width: 100%;
+	min-width: 300px;
+	height: 300px;
+	border: 2px solid #ccc;
+	border-radius: 1rem;
+}
 
-		.button-container {
-			padding: .625rem 0;
+.img-wrapper img { /* img:not(.responsive-exclude) */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	max-width: none;
+	max-height: none;
+	width: auto;
+	height: 100%;
+}
 
-		}
+.img-wrapper img.portrait {
+	width: 100%;
+	height: auto;
+}
 
-		
+.img-wrapper img.landscape {
+	width: auto;
+	height: 100%;
+}
+
+form {
+	padding: 0 10%;
+}
+
+input ,
+label {
+	display: block;
+	margin: 0 0 .125rem 0;
+}
+
+label , 
+button , 
+input[type="reset"]{
+	font-size: 1.2rem;
+}
+
+button , 
+input[type="reset"]{
+	border-radius: .625rem
+}
+
+input {
+	margin-bottom: 1rem;
+}
+
+button , 
+input[type="reset"] {
+	display: inline-block;
+	background-color: #D62828;
+	padding: .625rem;
+	border: 1px solid #D62828;
+	color: #eae2b7;
+	margin-right: .3125rem;
+}
+
+input[type="text"] , 
+input[type="email"] ,
+input[type="tel"] , 
+textarea {
+  display: block;
+  margin: 0 auto .8rem auto;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  padding: .3125rem;
+  width: 100%;
+}
+
+.button-container {
+	padding: .625rem 0;
+
+}
+
