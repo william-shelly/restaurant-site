@@ -254,6 +254,11 @@ textarea {
 
 /* Product Page */
 
+.close-icon {
+	width: 20px;
+	height: auto;
+}
+
 .ratings-icon {
 	width: 44px;
 	height: auto;
