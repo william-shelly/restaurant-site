@@ -211,11 +211,11 @@ p , li {
 } 
 
 
-.contact-container .contact-img-wrapper {
+.form-container .contact-img-wrapper {
 	padding: 0;
 }
 
-.contact-container .contact-img-wrapper .img-wrapper {
+.form-container .contact-img-wrapper .img-wrapper {
 	min-width: initial;
 	max-width: initial;
 	border: 0;
@@ -226,7 +226,7 @@ p , li {
 	border-bottom-right-radius: 0;
 }
 
-.contact-container .description {
+.form-container .description {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 1rem;
