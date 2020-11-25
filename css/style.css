@@ -10,7 +10,6 @@
 */
 
 body {
-	/*background-color: #EAE2B7;*/
 	background-color: #faf7e4;
 }
 
@@ -91,7 +90,6 @@ th {
 }
 
 .description {
-	/*background-color: #faf7e4;*/
 	background-color: #EAE2B7;
 	padding: 1rem;
 	border-radius: 1rem;
@@ -103,8 +101,6 @@ p , li {
 	color: #003049;
 
 }
-
-/* */
 
 .col {
 	display: inline-block;
@@ -155,9 +151,6 @@ p , li {
 	margin: 0 auto;
 }
 
-
-/* */
-
 .call-to-action {
 	background-color: #D62828;
 	border: 1px solid #D62828;
@@ -184,7 +177,7 @@ p , li {
   margin: 0 auto;
 }
 
-.img-wrapper img { /* img:not(.responsive-exclude) */
+.img-wrapper img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -374,7 +367,6 @@ textarea {
 }
 
 .cart-container .total-area td {
-	/*background-color: #fcbf49;*/
 	background-color: #EAE2B7;
 	color: #003049;
 }
