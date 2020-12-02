@@ -14,20 +14,22 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	/*max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 1.25rem 1.25rem 1.25rem;
+	padding: 0 1.25rem 1.25rem 1.25rem;*/
 	font-family: 'Roboto', sans-serif;
 }
 
 nav[aria-label="Main"] ul {
 	text-align: center;
-	padding: .625rem;
+	padding: 0;
 }
 
 nav[aria-label="Main"] ul li {
-	display: inline-block;
-	margin: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49%;
+	padding: 0;
 }
 
 nav[aria-label="Main"] ul li:last-child {
@@ -35,9 +37,10 @@ nav[aria-label="Main"] ul li:last-child {
 }
 
 nav[aria-label="Main"] ul li a {
+	display: block;
 	color: #FCBF49;
 	background-color: #d62828;
-	padding: .625rem 1.25rem;
+	padding: .625rem 0;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -56,28 +59,28 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 , 
 .headline-1 {
-	font-size: 6rem;
+	font-size: 3rem;
 	text-align: center;
 	color: #D62828;
 }
 
 h2 , 
 .headline-2 {
-	font-size: 4rem;
+	font-size: 2rem;
 	text-align: center;
 	color: #F77F00;
 }
 
 h3 , 
 .headline-3 {
-	font-size: 3rem;
+	font-size: 1.5rem;
 	text-align: left;
 	color: #003049;
 }
 
 h4 , 
 .headline-4 {
-	font-size: 2rem;
+	font-size: 1rem;
 	text-align: left;
 	color: #003049;
 }
@@ -172,7 +175,7 @@ p , li {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	min-width: 320px;
+	/*min-width: 320px;*/
   /*max-width: 400px;*/
 	height: 260px;
 	border: 1px solid #ccc;
@@ -199,6 +202,10 @@ p , li {
 .img-wrapper img.landscape {
 	width: 100%;
 	height: auto;
+}
+
+.contact-img-wrapper .img-wrapper {
+	height: 230px;
 }
 
 .cart-container .img-wrapper img.landscape {
@@ -275,7 +282,8 @@ textarea {
 
 .product-container .img-wrapper {
 	max-width: initial;
-	height: 400px;
+	/*height: 400px;*/
+	height: 290px;
 }
 
 .product-container .col50 {
@@ -319,7 +327,7 @@ textarea {
 
 .thumbnail-container li {
 	display: inline-block;
-  width: 24%;
+  width: 23%;
   box-sizing: border-box;
 }
 
@@ -418,8 +426,41 @@ textarea {
 
 
 @media screen and (min-width: 992px) {
+	h1 , 
+	.headline-1 {
+		font-size: 6rem;
+	}
+
+	h2 , 
+	.headline-2 {
+		font-size: 4rem;
+	}
+
+	h3 , 
+	.headline-3 {
+		font-size: 3rem;
+	}
+
+	h4 , 
+	.headline-4 {
+		font-size: 2rem;
+	}
+
+	nav[aria-label="Main"] ul li {
+	  width: 24%;
+	}
+
+	.product-container .img-wrapper {
+		height: 400px;
+	}
+
 	.img-wrapper img.landscape {
 		width: auto;
 		height: 100%;
 	}
+
+	.contact-img-wrapper .img-wrapper {
+		height: 260px;
+	}
+
 }
