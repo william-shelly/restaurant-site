@@ -80,7 +80,7 @@ h3 ,
 
 h4 , 
 .headline-4 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	text-align: left;
 	color: #003049;
 }
@@ -98,7 +98,7 @@ th {
 .description {
 	background-color: #faf7e4;
 	padding: 1rem;
-	border-radius: .625rem;
+	/*border-radius: .625rem;*/
 }
 
 p , li {
@@ -157,7 +157,7 @@ p , li {
 	margin: 0 auto;
 }
 
-.call-to-action {
+/*.call-to-action {
 	background-color: #D62828;
 	border: 1px solid #D62828;
 	color: #FCBF49;
@@ -169,7 +169,7 @@ p , li {
 	text-decoration: none;
 	width: 100%;
 	max-width: 200px;
-}
+} */
 
 .img-wrapper {
 	overflow: hidden;
@@ -179,8 +179,9 @@ p , li {
   /*max-width: 400px;*/
 	height: 260px;
 	border: 1px solid #ccc;
-	border-radius: .625rem;
+	/*border-radius: .625rem;*/
   margin: 0 auto;
+  background-color: #000;
 }
 
 .img-wrapper img {
@@ -208,10 +209,17 @@ p , li {
 	height: 230px;
 }
 
+/*
+.contact-img-wrapper .img-wrapper img {
+	width: auto;
+  height: 100%;
+}
+
 .cart-container .img-wrapper img.landscape {
 	width: 100%;
 	height: auto;
-} 
+}
+*/
 
 
 .form-container .contact-img-wrapper {
@@ -246,15 +254,15 @@ label {
 	margin: 0 0 .125rem 0;
 }
 
-label , 
+/*label , 
 button , 
 input[type="reset"]{
 	font-size: 1.2rem;
-}
+}*/
 
 button , 
 input[type="reset"]{
-	border-radius: .625rem
+	/*border-radius: .625rem*/
 }
 
 input {
@@ -282,7 +290,6 @@ textarea {
 
 .product-container .img-wrapper {
 	max-width: initial;
-	/*height: 400px;*/
 	height: 290px;
 }
 
@@ -290,7 +297,6 @@ textarea {
   min-height: initial;
   width: calc(50% - 2.2rem);
 }
-
 
 .close-icon {
 	width: 20px;
@@ -382,7 +388,7 @@ textarea {
 	color: #003049;
 }
 
-.cart-container th:first-child {
+/* .cart-container th:first-child {
 	border-top-left-radius: .625rem
 }
 
@@ -396,7 +402,7 @@ textarea {
 
 .cart-container .total-last-row td:last-child {
 	border-bottom-right-radius: .625rem
-}
+} */
 
 
 .cart-container .total-area td {
@@ -410,7 +416,7 @@ textarea {
 .cart-container .img-wrapper {
 	min-width: 100px;
 	max-height: 100px;
-	border-radius: .625rem;
+	/*border-radius: .625rem;*/
 }
 
 .cart-container .headline-4 {
@@ -453,7 +459,7 @@ textarea {
 	.product-container .img-wrapper {
 		height: 400px;
 	}
-
+/*
 	.img-wrapper img.landscape {
 		width: auto;
 		height: 100%;
@@ -463,4 +469,9 @@ textarea {
 		height: 260px;
 	}
 
+	.contact-img-wrapper .img-wrapper img {
+		width: 100%;
+	  height: auto;
+	}
+*/
 }
