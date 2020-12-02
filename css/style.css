@@ -260,10 +260,10 @@ input[type="reset"]{
 	font-size: 1.2rem;
 }*/
 
-button , 
+/* button , 
 input[type="reset"]{
-	/*border-radius: .625rem*/
-}
+	border-radius: .625rem
+} */
 
 input {
 	margin-bottom: 1rem;
