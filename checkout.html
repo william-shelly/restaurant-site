@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -15,7 +16,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 px-0 py-4">
-				<h1>Yummies!</h1>
+				<h1 class="animate__animated animate__bounce animate__delay-2s animate__fast">Yummies!</h1>
 			</div>
 			<div class="col-sm-12 p-0">
 				<nav id="main-nav" class="bkg-red-a" aria-label="Main">
@@ -33,73 +34,76 @@
 		</div>
 	</div>
 
-	<h2>&bull; Cart &bull;</h2>
-
-	<div class="container cart-container">
-			<div class="d-none d-lg-flex row">
-				<div class="col-6 col-lg-1 align-center"><strong>Quantity</strong></div>
-				<div class="col-6 col-lg-2 align-left"><strong>Item</strong></div>
-				<div class="col-6 col-lg-4"></div>
-				<div class="col-6 col-lg-2 align-right"><strong>Size</strong></div>
-				<div class="col-6 col-lg-2 align-right"><strong>Price</strong></div>
-				<div class="col-6 col-lg-1"></div>
-			</div><!-- row -->
-			<div class="row">
-				<div class="col-6 col-lg-1 order-4 order-lg-1 align-center">
-					<span class="d-inline-block d-lg-none"><strong>Quantity</strong></span> 1</div>
-				<div class="col-12 col-lg-2 order-2 order-lg-2">
-					<div class="img-wrapper">
-						<img class="landscape" src="https://www.chicagotribune.com/resizer/CA3Td8I0IdgSUnYgaS_sSnayun4=/fit-in/800x533/smart/filters:fill(black)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QIWGTV44HJD3ZNHQ2WT5XJX6DI.jpg" alt="Fried Rice Bowl">
-					</div><!-- img-wrapper -->
-				</div>
-				
-				<div class="col-12 col-lg-4 order-3 order-lg-3 align-lg-left">
-					<h3 class="headline-4 align-center">Fried Rice Bowl</h3>
-				</div>
+	<div class="container cart-container mb-4">
+		<div class="row">
+			<div class="col-sm-12 px-0 py-4">
+				<h2>Cart</h2>
+			</div>
+		</div>
+		<div class="d-none d-lg-flex row">
+			<div class="col-6 col-lg-1 align-center"><strong>Quantity</strong></div>
+			<div class="col-6 col-lg-2 align-left"><strong>Item</strong></div>
+			<div class="col-6 col-lg-4"></div>
+			<div class="col-6 col-lg-2 align-right"><strong>Size</strong></div>
+			<div class="col-6 col-lg-2 align-right"><strong>Price</strong></div>
+			<div class="col-6 col-lg-1"></div>
+		</div><!-- row -->
+		<div class="row">
+			<div class="col-6 col-lg-1 order-5 order-lg-1 align-left align-lg-center p-2">
+				<span class="d-inline-block d-lg-none"><strong>Quantity</strong></span> 1</div>
+			<div class="col-12 col-lg-2 order-2 order-lg-2">
+				<div class="img-wrapper">
+					<img class="landscape" src="https://www.chicagotribune.com/resizer/CA3Td8I0IdgSUnYgaS_sSnayun4=/fit-in/800x533/smart/filters:fill(black)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QIWGTV44HJD3ZNHQ2WT5XJX6DI.jpg" alt="Fried Rice Bowl">
+				</div><!-- img-wrapper -->
+			</div>
 			
-				<div class="col-6 col-lg-2 order-5 order-lg-4">
-					<span class="d-block align-right size product-size">Super Size</span>
+			<div class="col-10 col-lg-4 order-3 order-lg-3 align-lg-left py-2">
+				<h3 class="headline-4 align-left">Fried Rice Bowl</h3>
+			</div>
+		
+			<div class="col-6 col-lg-2 order-6 order-lg-4 py-2">
+				<span class="d-block align-right size product-size">Super Size</span>
+			</div>
+		
+			<div class="col-12 col-lg-2 order-7 order-lg-5 py-2">
+				<span class="d-block align-right price product-price">$9.00</span>
+			</div>
+		
+			<div class="col-2 col-lg-1 order-4 order-lg-6 align-right py-2">
+				<button class="border-0 bg-transparent"><img class="close-icon" src="img/times-circle-regular.svg" alt="delete item" /></button>
+			</div>
+		</div><!-- row -->
+		<div class="row">
+			<div class="col-6 col-lg-2 offset-lg-7 py-2">
+				<span class="d-block align-right price product-price"><strong>Subtotal</strong></span>
+			</div>
+			<div class="col-6 col-lg-2 py-2">
+				<span class="d-block align-right price product-price"><strong>$9.00</strong></span>
+			</div>
+		</div><!-- row -->
+		<div class="row">
+			<div class="col-6 col-lg-2 offset-lg-7 py-2">
+				<span class="d-block align-right price product-price">Tax</span>
+			</div>
+			<div class="col-6 col-lg-2 py-2">
+				<span class="d-block align-right price product-price">$0.77</span>
+			</div>
+		</div><!-- row -->
+		<div class="row">
+			<div class="col-6 col-lg-2 offset-lg-7 py-2">
+				<span class="d-block align-right price product-price"><strong>Total</strong></span>
+			</div>
+			<div class="col-6 col-lg-2 py-2">
+				<span class="d-block align-right price product-price"><strong>$9.77</strong></span>
+			</div>
+		</div><!-- row -->
+		<div class="row">
+			<div class="col-11">
+				<div class="button-container align-right py-2">
+					<input class="btn btn-danger d-sm-inline-block" type="button" value="Checkout">
 				</div>
-			
-				<div class="col-12 col-lg-2 order-6 order-lg-5">
-					<span class="d-block align-right price product-price">$9.00</span>
-				</div>
-			
-				<div class="col-12 col-lg-1 order-1 order-lg-6">
-					<button><img class="close-icon" src="img/times-circle-regular.svg" alt="delete item" /></button>
-				</div>
-			</div><!-- row -->
-			<div class="row">
-				<div class="col-6 col-lg-2 offset-lg-7">
-					<span class="d-block align-right price product-price"><strong>Subtotal</strong></span>
-				</div>
-				<div class="col-6 col-lg-2">
-					<span class="d-block align-right price product-price"><strong>$9.00</strong></span>
-				</div>
-			</div><!-- row -->
-			<div class="row">
-				<div class="col-6 col-lg-2 offset-lg-7">
-					<span class="d-block align-right price product-price">Tax</span>
-				</div>
-				<div class="col-6 col-lg-2">
-					<span class="d-block align-right price product-price">$0.77</span>
-				</div>
-			</div><!-- row -->
-			<div class="row">
-				<div class="col-6 col-lg-2 offset-lg-7">
-					<span class="d-block align-right price product-price"><strong>Total</strong></span>
-				</div>
-				<div class="col-6 col-lg-2">
-					<span class="d-block align-right price product-price"><strong>$9.77</strong></span>
-				</div>
-			</div><!-- row -->
-			<div class="row">
-				<div class="col-12">
-					<div class="button-container align-center">
-						<input class="btn btn-danger d-sm-inline-block" type="button" value="Checkout">
-					</div>
-				</div>
-			</div><!-- row -->
+			</div>
+		</div><!-- row -->
 	</div><!-- /container -->
 
 
